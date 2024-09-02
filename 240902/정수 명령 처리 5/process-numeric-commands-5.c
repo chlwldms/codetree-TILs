@@ -10,7 +10,7 @@ void countSize();
 
 int main() {
     
-    int* arr = (int*)malloc(sizeof(int) * 100);
+    int* arr = (int*)malloc(sizeof(int) * 100000);
     int num;
     char string[20];
     scanf("%d", &num);
