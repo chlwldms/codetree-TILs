@@ -7,6 +7,7 @@ int main() {
 
     b = a;
 
+    printf("%d %d", a, b);
     printf("%d", a * b);
 
 
