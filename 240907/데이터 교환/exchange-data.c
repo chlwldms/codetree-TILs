@@ -6,9 +6,13 @@ int main() {
     int b = 6;
     int c = 7;
 
-    b = a;
-    c = b;
+    int k;
+
+    k = a;
+
     a = c;
+    c = b;
+    b = k;
 
     printf("%d\n", a);
     printf("%d\n", b);
